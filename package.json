@@ -31,15 +31,20 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^3.4.0",
     "emotion": "^10.0.27",
-    "extract-loader": "^3.1.0",
+   
+    
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-emotion": "^10.0.0"
+   
+  },
+  "devDependencies": {
+   "extract-loader": "^3.1.0",
     "file-loader": "^5.0.2",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^4.0.1",
-    "nodemon": "^2.0.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-emotion": "^10.0.0",
-    "style-loader": "^1.1.2",
+  "nodemon": "^2.0.2",
+	 "style-loader": "^1.1.2",
     "ts-loader": "^6.2.2",
     "typescript": "^3.8.3",
     "webpack": "^4.41.2",
@@ -47,9 +52,6 @@
     "webpack-dev-middleware": "^3.7.2",
     "webpack-dev-server": "^3.9.0",
     "webpack-hot-middleware": "^2.25.0"
-  },
-  "devDependencies": {
-   
     
   }
 }
