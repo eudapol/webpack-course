@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-	"babel-core": "^6.26.3",
+	  "babel-core": "^6.26.3",
     "express": "^4.17.1",
     "react-hot-loader": "^4.5.3"
   },
@@ -21,7 +21,7 @@
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
+   
     "babel-loader": "^7.1.5",
     "babel-plugin-async-to-promises": "^1.0.5",
     "babel-plugin-emotion": "^10.0.29",
