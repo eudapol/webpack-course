@@ -33,7 +33,7 @@ export default class extends React.Component {
         const isWild = this.state.counter % 2 === 0; 
         return (
              <div className={Styles.counter} onClick={this.climb.bind(this)}>
-                 <Fancy wild={isWild}>{this.state.counter} </Fancy>
+                 <Fancy wild={isWild}>Counting: {this.state.counter} </Fancy>
             </div>);
         
     }
