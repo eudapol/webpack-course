@@ -5,6 +5,8 @@ const server = express();
 
 
 const isProd = (process.env.NODE_ENV === 'PRODUCTION');
+
+console.log("isProd : "+isProd);
 if(!isProd){
     const webpack = require('webpack');
     const config = require('../../config/webpack.dev.js');
